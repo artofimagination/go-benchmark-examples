@@ -1,8 +1,6 @@
 package tests
 
-// go get golang.org/x/perf/cmd/benchstat
-// Command go test ./... -bench=BenchmarkPassValue -benchmem -run=^$ -count=10 > head.txt && benchstat head.txt
-// Command go test ./... -bench=BenchmarkPassPointer -benchmem -run=^$ -count=10 > head.txt && benchstat head.txt
+// Command: go test -v -bench=. -benchmem ./tests/
 
 import (
 	"os"
